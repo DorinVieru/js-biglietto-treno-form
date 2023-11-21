@@ -11,31 +11,31 @@
 <body>
     <div class="container my-3">
         <div class="row">
-            <div class="col-12">
-                <h1 id="title"></h1>
+            <div class="col-12 text-white text-center fw-bold">
+                <h1 id="title">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
             </div>
         </div>
     </div>
     <div class="container my-4">
-        <div class="row">
-            <div class="col-4">
+        <div class="row bg_color_row rounded-3">
+            <div class="col-4 mt-3">
                 <label for="nome_e_cognome">Nome e Cognome</label>
-                <input type="text" id="nome_e_cognome" class="form-control">
+                <input type="text" id="nome_e_cognome" class="form-control border_input">
             </div>
-            <div class="col-4">
+            <div class="col-4 mt-3">
                 <label for="km">Km da percorrere</label>
-                <input type="text" id="km" class="form-control">
+                <input type="text" id="km" class="form-control border_input">
             </div>
-            <div class="col-4">
+            <div class="col-4 mt-3">
                 <label for="eta">Fascia di età</label>
-                <select name="eta" id="eta" class="form-control">
+                <select name="eta" id="eta" class="form-control border_input">
                     <option value="">Seleziona...</option>
                     <option value="magg">Maggiorenne</option>
                     <option value="min">Minorenne</option>
                     <option value="over">Over 65+</option>
                 </select>
             </div>
-            <div class="col-12 mt-4 text-center">
+            <div class="col-12 my-4 text-center">
                 <button id="button_genera" class="btn btn-success">Genera</button>
                 <button class="btn btn-danger">Annulla</button>
             </div>

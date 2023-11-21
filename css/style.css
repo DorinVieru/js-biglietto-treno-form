@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #B91450;
+}
+
+.bg_color_row{
+    background-color: white;
+}
+
+label{
+    color: #B91450 ;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.border_input{
+    border: 1px solid #B91450;
+    margin-top: 10px;
+}
